@@ -12,10 +12,8 @@
 .whether-box {
   display: flex;
   flex-direction: column;
-   justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
 }
 
 .center {
@@ -24,6 +22,7 @@
   background-color: black;
   opacity: 0.8;
   border-radius: 10px;
+  margin: 40px;
 }
 
 input {
@@ -57,4 +56,34 @@ input {
 }
 .weather {
   display: flex;
+}
+
+.card {
+  width: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: 210px;
+  display: block;
+}
+
+.card-content {
+  padding: 16px;
+  text-align: center;
+  margin-top: 0%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
 }
